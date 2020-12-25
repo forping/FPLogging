@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
   简单的日志系统,不上传服务器,本地记录
                        DESC
 
-  s.homepage         = 'https://github.com/aiyanbo/FPLogging'
+  s.homepage         = 'https://github.com/forping/FPLogging'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'aiyanbo' => '809060809@qq.com' }
-  s.source           = { :git => 'https://github.com/aiyanbo/FPLogging.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/forping/FPLogging.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
