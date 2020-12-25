@@ -7,6 +7,7 @@
 //
 
 #import "FPViewController.h"
+#import <FPLogging/FPLogging.h>
 
 @interface FPViewController ()
 
@@ -17,7 +18,19 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    
+    [[FPLoggingTool sharedInstance] logInfo:@"日志1"];
+    [[FPLoggingTool sharedInstance] logInfo:@"日志2"];
+    [[FPLoggingTool sharedInstance] logInfo:@"日志3"];
+    [[FPLoggingTool sharedInstance] logInfo:@"日志4"];
+    [[FPLoggingTool sharedInstance] logInfo:@"日志5"];
+    
+    NSLog(@"%@",[[FPLoggingTool sharedInstance] filePath]);
+    
+    NSString *str = [[NSString alloc] initWithContentsOfFile:[[FPLoggingTool sharedInstance] filePath] encoding:NSUTF8StringEncoding error:NULL];
+    
+    NSLog(@"%@",str);
 }
 
 - (void)didReceiveMemoryWarning

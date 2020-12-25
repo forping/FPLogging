@@ -60,11 +60,11 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6119463D827834BC857C6E10 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		6119463D827834BC857C6E10 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8217B8C92B5EA876C72D39A1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		8217B8C92B5EA876C72D39A1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8B8F55F5BEA0AC64B3E4B9B0 /* FPLogging.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FPLogging.podspec; path = ../FPLogging.podspec; sourceTree = "<group>"; };
+		8B8F55F5BEA0AC64B3E4B9B0 /* FPLogging.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FPLogging.podspec; path = ../FPLogging.podspec; sourceTree = "<group>"; };
 		9174B1A834E68A86C7676F87 /* Pods-FPLogging_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FPLogging_Tests.release.xcconfig"; path = "Target Support Files/Pods-FPLogging_Tests/Pods-FPLogging_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9D166B77AE0532FCD614456B /* Pods-FPLogging_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FPLogging_Example.release.xcconfig"; path = "Target Support Files/Pods-FPLogging_Example/Pods-FPLogging_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -103,7 +103,6 @@
 				4E0C955F612EBEBE96D424F6 /* Pods-FPLogging_Tests.debug.xcconfig */,
 				9174B1A834E68A86C7676F87 /* Pods-FPLogging_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
